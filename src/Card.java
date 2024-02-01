@@ -24,6 +24,11 @@ public class Card implements Comparable<Card> {
     /** boolean value that determines whether this card is face up or down */
     private boolean isFaceUp;
     
+    /**
+     * Creates an instance of a card
+     * @param symbol represents the card symbol as a string
+     * @param value
+     */
     public Card(String symbol, int value) {
         // initializes the class attributes
         this.symbol = symbol;
